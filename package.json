@@ -1,0 +1,30 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Decision guide app",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.0-beta1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "jquery": "^3.5.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flegrisgreen/decision_framework.git"
+  },
+  "author": "Carlo Human",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flegrisgreen/decision_framework/issues"
+  },
+  "homepage": "https://github.com/flegrisgreen/decision_framework#readme"
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Decision Framework</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+      crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+        crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      </script>
+<!--Custom CSS Sheet-->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/functions.js"></script>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  </style>
+</head>
+
+<body>
+<!--Header-->
+<div class="header">
+  <h1>Decision Framework for a System of Digital Twins</h1>
+  <p>Implementation Guide</p>
+</div>
+<!--Top navigation bar-->
+<ul class="topnav">
+  <li></li>
+  <li><button type="button" id="clear">Home</button></li>
+  <li><button type="button" id="conceptual">Conceptual</button></li>
+  <li><button type="button" id="logical">Logical</button></li>
+  <li><button type="button" id="physical">Physical</button></li>
+</ul>
+
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <button type="button" id="multi">Multi-repo multi-cloud</button>
+      <button type="button">Storage reduction</button>
+      <button type="button">Data quality</button>
+      <button type="button">Storage redundancy</button>
+    </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-3" id="choices">
+      <h2>Choices</h2>
+    </div>
+    <div class="col-md-3">
+      <h2>Parameters</h2>
+    </div>
+    <div class="col-md-3">
+      <h2>Limitations</h2>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

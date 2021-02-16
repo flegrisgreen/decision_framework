@@ -1,0 +1,42 @@
+<style>
+h2 {
+  color:#b8c0be;
+  text-align: center;
+}
+
+.form-group label{
+    color:#b8c0be;
+}
+
+.form-control{
+    background-color: #7f8583;
+}
+
+input{
+  background: black;
+  text-align: center;
+  color: #b8c0be;
+  border-color: #b8c0be;
+  padding: 10px;
+  margin: 10px
+}
+</style>
+
+<h2>Decision form</h2>
+
+<form>
+  <div class="form-group">
+    <label for="role">Please select the most appropriate role</label>
+    <select class="form-control" id="role">
+      <option>monitoring</option>
+      <option>control</option>
+      <option>analytics</option>
+      <option>storage</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="description">Please provide a short description of the desired service</label>
+    <textarea class="form-control" id="description" rows="3"></textarea>
+  </div>
+  <input type="submit"> 
+</form>

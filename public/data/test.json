@@ -1,0 +1,6 @@
+[
+    {"item": {"val": 2}},
+    {"item": {"val": "number 2"}},
+    {"item": {"val":{"dot1": 1, "dot2":3}}}
+]
+   

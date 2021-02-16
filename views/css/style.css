@@ -1,0 +1,95 @@
+/* Header */
+.header {
+  padding: 10px; 
+  padding-top: 25px;
+  text-align: center; 
+  background: rgb(54, 53, 53);
+  color: #e4e6e5; 
+  width:100%;
+  border-style: ridge;
+
+}
+
+.subheader{
+    background: #414645;
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+/*navbar styling*/
+.navbar {
+  list-style-type: none;
+  border-style: none;
+}
+.navbar li{
+float:left;
+padding: 0px 30px 0px 30px;
+width:20%;
+}
+
+/*Topnav styling*/
+.topnav {
+  list-style-type: none;
+  border-style: none;
+}
+.topnav li{
+float:left;
+padding: 0px 30px 0px 30px;
+width:20%;
+}
+.topnav li button{
+  background: black;
+  text-align: center;
+  color: #b8c0be;
+  border-color: #b8c0be;
+  padding: 10px;
+  width: 100%;
+}
+li button:hover {
+  color: #07a3d3;
+  border-color: #07a3d3;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 15%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav button {
+  background: black;
+  text-align: center;
+  color: #b8c0be;
+  border-color: #b8c0be;
+  padding: 10px;
+  width: 95%;
+  margin: 5px
+}
+.sidenav button:hover {
+  color: #07a3d3;
+  border-color: #07a3d3;
+}
+
+/* Column contents */
+h2 {
+  color:#b8c0be;
+}

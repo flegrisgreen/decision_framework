@@ -1,0 +1,7 @@
+[
+    {"benefit": "multi distribution",
+    "description": "The multi-cloud, multi-repository distribution of a cluster of data",
+    "required_functions":["Ingestion", "Reduction", "Communication", "Storage"],
+    "architectural_choices":[""]},
+    {}
+]
