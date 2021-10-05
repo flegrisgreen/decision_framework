@@ -60,7 +60,7 @@ li button:hover {
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 15%; /* Set the width of the sidebar */
+  width: 20%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   background-color: black; /* Black */
@@ -89,8 +89,28 @@ li button:hover {
   border-color: #07a3d3;
 }
 
+.sidenav button:checked {
+  color: #07a3d3;
+  border-color: #07a3d3;
+}
+
 /* Column contents */
-h2 {
+h4 {
   color:#b8c0be;
   text-align: center;
 }
+#description{
+  float:right;
+  color: #56b7e4;
+}
+
+.content li{
+  list-style-type:circle;
+  color: #b8c0be;
+  border-style: solid;
+  border-color: #b8c0be;
+  margin: 5px;
+  border: 1px;
+}
+
+

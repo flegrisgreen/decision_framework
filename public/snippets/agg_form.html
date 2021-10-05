@@ -1,0 +1,72 @@
+<style>
+h2 {
+  color:#b8c0be;
+  text-align: center;
+}
+
+.form-group label{
+    color:#b8c0be;
+}
+
+.form-control{
+    background-color: #7f8583;
+}
+
+input{
+  background: black;
+  text-align: center;
+  color: #b8c0be;
+  border-color: #b8c0be;
+  padding: 10px;
+  margin: 10px
+}
+
+.form-check-label{
+  color:#b8c0be;
+}
+</style>
+
+<h2>Aggregate decision form</h2>
+
+<form action="/forms" method="POST">
+
+  <div class="form-group">
+    <label for="agg_select">Please select an aggregate</label>
+    <select class="form-control" id="agg_select" name="agg_select">
+      <option value="new">New</option>
+      <!--Add aggregates that are already created here-->
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="role">Please select the most appropriate role</label>
+    <select class="form-control" id="role" name="role">
+      <option style="color:rgba(240, 255, 255, 0.568)">select</option>
+      <option value="Transport">Transport</option>
+      <option value="Supervision">Control</option>
+      <option value="Analytics">Analytics</option>
+      <option value="Storage">Storage</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="description">Please provide a short description of the desired service</label>
+    <textarea class="form-control" id="description" rows="3" name="role_details"></textarea>
+  </div>
+
+  <div class="form-group">
+      <label for="service_location">Where is the aggregate located</label>
+      <select class="form-control" id="service_location" name="service_location">
+        <option>local aggregate</option>
+        <option>cloud</option>
+      </select>
+  </div>
+
+  <div class="form-group">
+    <div class="form-check" id="benefits_list" name="benefits_list">
+        <label for="benefits_list">Please select the desired benefits of the aggregate</label>
+    </div>
+  </div>
+
+  <input type="submit"> 
+</form>

@@ -1,13 +1,14 @@
-class aggregate {
-    constructor(name, level, role, location, benefits){
-        this.name = name;
-        this.level = level;
-        this.role = role;
-        this.location = location;
-        this.benefits = benefits;
-        this.links = [];
-        this.data = [];
-        this.linked_types = [];
+//-------------------- Aggregate ------------------------------
+class Aggregate {
+    constructor(name, role, location, benefits){
+        this.name = name;           // unique id
+        this.level = level;         // hierarchy level
+        this.role = role;           // DTA role
+        this.location = location;   // Cloud or local
+        this.benefits = benefits;   // Desired benefits
+        this.links = [];            // Connected DTIs/DTAs
+        this.data = [];             // Available data
+        this.linked_types = [];     // Types of DTIs connected
     }
 
     create_link(DT){
@@ -23,6 +24,8 @@ class aggregate {
     }
 }
 
+
+//-------------------- Instance ------------------------------
 class instance {
     constructor(PT, name, role){
         this.name = name;
@@ -39,18 +42,22 @@ class instance {
         this.data = data;
     }
 }
+
+//-------------------- Database ------------------------------
 class database{
     constructor(){
 
     }
 }
 
+//-------------------- Communications ------------------------------
 class comm_channel{
     constructor(){
 
     }
 }
 
+//-------------------- Cloud ------------------------------
 class cloud_platform{
     constructor(){
 
